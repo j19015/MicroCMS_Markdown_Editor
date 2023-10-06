@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.425.0",
     "@uiw/react-md-editor": "^3.23.6",
+    "cuid": "^3.0.0",
+    "formidable": "^3.5.1",
     "microcms-field-extension-react": "^1.0.0",
     "next": "latest",
     "next-remove-imports": "^1.0.12",
@@ -17,6 +20,7 @@
     "react-dom": "latest"
   },
   "devDependencies": {
+    "@types/formidable": "^3.4.3",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
