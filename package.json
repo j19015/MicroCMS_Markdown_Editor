@@ -9,23 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.425.0",
-    "@uiw/react-md-editor": "^3.23.6",
-    "cuid": "^3.0.0",
-    "formidable": "^3.5.1",
+    "@aws-sdk/client-s3": "^3.215.0",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "@uiw/react-md-editor": "^3.6.0",
+    "cuid": "^2.1.8",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.4",
+    "formidable": "^2.0.1",
     "microcms-field-extension-react": "^1.0.0",
-    "next": "latest",
-    "next-remove-imports": "^1.0.12",
-    "react": "latest",
-    "react-dom": "latest"
+    "next": "13.0.4",
+    "next-remove-imports": "^1.0.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "rehype-sanitize": "^5.0.1",
+    "typescript": "4.9.3"
   },
   "devDependencies": {
-    "@types/formidable": "^3.4.3",
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "eslint": "latest",
-    "eslint-config-next": "latest",
-    "typescript": "latest"
+    "@types/formidable": "^2.0.5"
   }
 }
